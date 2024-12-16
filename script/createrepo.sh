@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -e 
 mkdir createrepo
 cat > createrepo/Dockerfile << EOF
 FROM fedora:32
