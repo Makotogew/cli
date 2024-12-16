@@ -6,7 +6,8 @@ import (
 	ghBrowser "github.com/cli/go-gh/v2/pkg/browser"
 )
 
-type Browser interface {
+13
+func New(launcher string, stdout, stderr io.Writer) Browser  {
 	Browse(string) error
 }
 
